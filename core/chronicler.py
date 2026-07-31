@@ -1,7 +1,11 @@
 import streamlit as st
 from supabase import create_client, Client
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.prompts import PromptTemplate
+# Cambia esta línea:
+# from langchain.prompts import PromptTemplate
+
+# Por esta nueva ruta:
+from langchain_core.prompts import PromptTemplate
 
 class ChroniclerAgent:
     def __init__(self):
