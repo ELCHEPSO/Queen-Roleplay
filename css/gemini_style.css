@@ -1,0 +1,19 @@
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+.stChatFloatingInputContainer {
+    padding-bottom: 2rem;
+}
+/* Estilo oscuro y limpio tipo Gemini */
+.stApp {
+    background-color: #131314;
+    color: #e3e3e3;
+}
+.stChatMessage {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.stChatMessage[data-testid="chatAvatarIcon-user"] {
+    background-color: #1e1f20;
+}
